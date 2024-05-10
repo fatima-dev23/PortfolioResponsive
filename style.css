@@ -1,0 +1,231 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-navbar {
+    background-color: black;
+    position: sticky;
+}
+
+.custom-navbar .navbar-brand {
+    color: #e94f37;
+    font-weight: bold;
+}
+
+.custom-navbar .navbar-brand:hover {
+    color: #f6f7eb;
+    font-weight: bold;
+}
+
+.custom-navbar .navbar-nav .nav-link a:hover {
+    color: white;
+}
+
+
+.custom-navbar .navbar-collapse .navbar-nav .nav-link {
+    color: #e94f37;
+    font-weight: 600;
+    margin-right: 44px;
+}
+
+
+
+#home {
+    background-color: black;
+}
+
+.home-content h1{
+    color: #f6f7eb;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-content h3{
+    color: #e94f37;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+
+.home-content h3:hover{
+    color: #f6f7eb;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.home-content p{
+    color: #f6f7eb;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 600px;
+
+    line-height: 1.8;
+}
+
+.btn-box {
+    max-width: 280px;
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between buttons */
+}
+
+.btn-box a {
+    background-color: #e94f37;
+    color: #f6f7eb;
+    font-weight: 500;
+    text-decoration: none;
+    /* border: #e94f37 2px solid; */
+    padding: 2% 8px;
+    border-radius: 8px;
+    width: calc(50% - 5px); /* Equal width for both buttons */
+    height: 50px; /* Set the desired height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-box a:first-child {
+    margin-right: 10px; /* Add margin to separate buttons */
+}
+
+.btn-box a:hover,
+.btn-box a:focus {
+    background-color: #f6f7eb;
+    color: #e94f37;
+    font-weight: bolder;
+    transition:0.4s ease-in-out;
+    font-size: 12px;
+}
+
+#about{
+    background-color: #e94f37;
+    color: black;
+    padding: 140px 0;
+}
+
+.about-content{
+    text-align: justify;
+    max-width: 700px;
+    background-color: #f6f7eb;
+    border: #e94f37 4px solid;
+    border-radius: 20px;
+}
+
+.about-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+.about-content p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #e94f37;
+}   
+
+#services{
+    background-color: #f6f7eb;
+    color: #e94f37;
+    padding: 140px 0;
+}
+
+#services h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #e94f37;
+    padding-bottom: 30px;
+}
+
+#services .card{
+    background-color: #e94f37;
+    color: #f6f7eb;
+    border-radius: 20px;
+}
+
+#projects{
+    background-color: black;
+    color: #f6f7eb;
+}
+
+#projects h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #e94f37;
+    padding-bottom: 30px;
+}
+
+#projects .card{
+    background-color: #f6f7eb;
+    color: #e94f37;
+    border-radius: 10px;
+}
+
+#projects .btn{
+    background-color: #e94f37;
+    color: #f6f7eb;
+    font-weight: 500;
+    text-decoration: none;
+    border: #e94f37 2px solid;
+    padding: 2% 8px;
+    border-radius: 8px;
+    width: 40%;
+}
+
+#contact{
+    background-color: #e94f37;
+    padding: 140px 0;
+}
+
+#contact h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #f6f7eb;
+    padding-bottom: 30px;
+}
+
+#contact form{
+    display: flex;
+    flex-flow: column wrap;
+    align-self: center;
+    max-width: 900px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#contact .form-group{
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 10px;
+}
+
+#contact #name, #contact #email{
+    background-color: #f6f7eb;
+    color: #e94f37;
+    border-radius: 10px;
+}
+
+#contact #message{
+    background-color: #f6f7eb;
+    color: #e94f37;
+    border-radius: 10px;
+    resize: none;
+}
+
+#contact .btn{
+    align-self: center;
+    margin-top: 10px;
+    background-color:#e94f37;
+    color:#f6f7eb;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 40%;
+}
+
+#contact .btn:hover {
+    background-color: #f6f7eb;
+    color:#393e41;
+    transition:0.4s ease-in-out;
+    font-size: 12px;
+}
